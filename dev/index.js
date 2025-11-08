@@ -1,4 +1,4 @@
-import utils from "xrg-utils/utils";
+import { withSearch, getBase64 } from "@retork/utils";
 
 const x = withSearch({
    array: [

@@ -1,11 +1,11 @@
-# xrg-utils
+# @retork/utils
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/xrg-utils">
-    <img src="https://img.shields.io/npm/v/xrg-utils?color=blue&logo=npm" alt="NPM Version" />
+  <a href="https://www.npmjs.com/package/@retork/utils">
+    <img src="https://img.shields.io/npm/v/@retork/utils?color=blue&logo=npm" alt="NPM Version" />
   </a>
-  <a href="https://github.com/Ritesh-K-Upadhyay/xrg-utils/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Ritesh-K-Upadhyay/xrg-utils" alt="License" />
+  <a href="https://github.com/Ritesh-K-Upadhyay/@retork/utils/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Ritesh-K-Upadhyay/@retork/utils" alt="License" />
   </a>
 </p>
 
@@ -22,15 +22,15 @@ A modern, lightweight, and tree-shakable collection of reusable utility function
 ## 🚀 Installation
 
 ```bash
-npm install xrg-utils
+npm install @retork/utils
 ```
 
 ## 🛠️ Usage
 
-Import the utilities you need from `xrg-utils/utils`:
+Import the utilities you need from `@retork/utils`:
 
 ```typescript
-import utils from "xrg-utils/utils";
+import utils from "@retork/utils";
 ```
 
 ---
@@ -125,4 +125,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests to c
 
 ## 📄 License
 
-This package is open-source and available under the [MIT License](https://github.com/Ritesh-K-Upadhyay/xrg-utils/blob/main/LICENSE).
+This package is open-source and available under the [MIT License](https://github.com/Ritesh-K-Upadhyay/@retork/utils/blob/main/LICENSE).
