@@ -1,0 +1,69 @@
+{
+   "name": "@retork/utils",
+   "version": "1.0.8",
+   "description": "A modern collection of reusable utility functions for JavaScript and TypeScript, designed to simplify everyday development tasks.",
+   "main": "./dist/index.js",
+   "types": "./dist/index.d.ts",
+   "exports": {
+      ".": {
+         "import": "./dist/index.js",
+         "require": "./dist/index.js",
+         "types": "./dist/index.d.ts"
+      },
+      "./utils": {
+         "import": "./dist/utils/index.js",
+         "require": "./dist/utils/index.js",
+         "types": "./dist/utils/index.d.ts"
+      }
+   },
+   "scripts": {
+      "build": "tsc",
+      "prepare": "npm run build",
+      "dev": "npm run build && npm link && cd ./dev && npm link @retork/utils",
+      "clean": "rmdir /s /q dist && npm unlink @retork/utils && cd ./dev && npm unlink @retork/utils",
+      "restart": "npm run clean && npm run dev",
+      "deploy": "npm run build && npm publish --access public"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/developer-ryitesh/retork-utils.git"
+   },
+   "keywords": [
+      "javascript",
+      "typescript",
+      "ts",
+      "utils",
+      "utility",
+      "utility-functions",
+      "toolkit",
+      "helpers",
+      "common-functions",
+      "base64",
+      "slugify",
+      "password-generator",
+      "string-utils",
+      "truncate",
+      "pipeline",
+      "functional-programming",
+      "frontend-utils",
+      "backend-utils",
+      "node-utils",
+      "reusable-code",
+      "typescript-utilities",
+      "npm-utils",
+      "javascript-tools",
+      "modern-utils"
+   ],
+   "author": "ritesh-goswami",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/developer-ryitesh/retork-utils/issues"
+   },
+   "homepage": "https://github.com/developer-ryitesh/retork-utils#readme",
+   "devDependencies": {
+      "typescript": "^5.4.3"
+   },
+   "files": [
+      "dist/**/*"
+   ]
+}
